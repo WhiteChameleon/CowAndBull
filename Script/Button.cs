@@ -5,6 +5,7 @@ public class Button : MonoBehaviour
 {
     public void StartGame()
     {
+        print("test");
         AppearAnimal.cowsCount[0] += 2;
         AppearAnimal.bullsCount[0] += 1;
         SceneManager.LoadScene("Game");
